@@ -1,0 +1,190 @@
+main {
+  margin-top: 140px;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2 {
+  font-size: 4em;
+  font-weight: 700;
+  color: #223319;
+  margin-bottom: 60px;
+}
+
+#CriarCard_btn {
+  position: fixed;
+  top: 160px;
+  right: 60px;
+  border: 4px solid #AADD8E;
+  border-radius: 50px;
+  padding: 10px 38px;
+  font-size: 5rem;
+  font-weight: 600;
+  background-color: rgba(34, 51, 25, .8);
+  backdrop-filter: blur(18px);
+  box-shadow: rgba(0, 0, 0, 0.6) 5px 5px 20px;
+  color: #AADD8E;
+  transition: all .3s;
+}
+
+#CriarCard_btn:hover {
+  border: 4px solid #223319;
+  background-color: #AADD8E;
+  color: #223319;
+  transform: translateY(-0.20em);
+}
+
+/* Div que recebe os cards */
+.cardsContainer {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  column-gap: 40px;
+  row-gap: 40px;
+  padding: 0px 200px;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  transition: 0.5s;
+}
+
+/* Estilos para o corpo do card */
+.card_box {
+  width: 300px;
+  height: 460px;
+  margin-bottom: 20px;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: rgba(34, 51, 25, .7);
+  backdrop-filter: blur(18px);
+  box-shadow: rgba(0, 0, 0, 0.6) 5px 5px 20px;
+  transition: all .2s;
+}
+
+/* Estilos para a imagem do campeão */
+.img_box {
+  width: 300px;
+  height: auto;
+}
+
+.img_box img {
+  width: 300px;
+  height: 280px;
+  transition: ease-in 0.2s;
+}
+
+/* Container dos textos do card */
+.text_box {
+  border-radius: 0px 0px 6px 6px;
+  height: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: start;
+  margin: 0;
+  padding: 0 0 0 30px;
+}
+
+/* Estilos para o nome do campeão */
+.text_box h1,
+p {
+  color: white;
+  margin: 0;
+  text-shadow: 2px 20px 15px;
+  text-transform: capitalize;
+  font-style: italic;
+  color: #ffffff;
+  text-shadow: 2px 2px #1E2328;
+
+}
+
+.text_box h1 {
+  font-size: 3.4rem;
+  font-weight: 600;
+}
+
+.text_box p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.button_box {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.button_box button {
+  border: none;
+  padding: 10px 22px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border-radius: .4rem;
+  background-color: #AADD8E;
+  color: #223319;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+  transition: all .3s;
+}
+
+.button_box button:hover {
+  background-color: #d7ffc0;
+  transform: translateY(-0.20em);
+}
+
+.petCardContainer {
+  background-color: rgba(34, 51, 25, .7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  backdrop-filter: blur(18px);
+  border-radius: 0.6em;
+  width: 400px;
+  height: 100%;
+  padding: 40px 50px;
+  z-index: 0;
+  color: #f5f5f5;
+  margin: 15% auto;
+  width: fit-content;
+  border-radius: 6px;
+}
+
+.petCardContainer h3 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 4em;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.petCardContainer .inputBox {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  margin: 40px 0;
+}
+
+.petCardContainer .enviarCardBtn {
+  margin-top: 18px;
+  width: 100%;
+  background: #AADD8E;
+  color: #223319;
+  height: 60px;
+  border: none;
+  border-radius: 40px;
+  font-size: 2.2em;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.petCardContainer .enviarCardBtn:hover {
+  background-color: #d7ffc0;
+  transform: translateY(-0.20em);
+}

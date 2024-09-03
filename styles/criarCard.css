@@ -1,0 +1,25 @@
+.containerCriarCard {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    transform: translateY(-10%);
+}
+
+.inputBox input {
+    font-size: 1.6em;
+    background: white;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: .3rem;
+    padding: 22px 45px 20px 20px;
+}
+
+.inputBox input::placeholder {
+    color: #424242;
+}

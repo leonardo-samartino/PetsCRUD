@@ -1,0 +1,64 @@
+main {
+    margin-top: 110px;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 4em;
+    font-weight: 700;
+    color: #223319;
+    margin-bottom: 60px;
+}
+
+.carousel-inner {
+    border-radius: 1rem;
+    border: 3px solid #223319;
+    box-shadow: rgba(0, 0, 0, 0.6) 5px 5px 20px;
+}
+
+.entreBtn button {
+    border: 3px solid #223319;
+    border-radius: 10rem;
+    background-color: #223319;
+    backdrop-filter: saturate(100%) blur(10px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 0;
+    color: #AADD8E;
+    transition: all .3s;
+    text-decoration: none;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.entreBtn button:hover {
+    transform: translateY(-0.25em);
+    background: transparent;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(34, 51, 25);
+    color: #223319;
+    font-weight: 600;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    height: 30px;
+    width: 100%;
+    background-color: #223319;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 180px;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+footer p {
+    margin: 0;
+}

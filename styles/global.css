@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    background-image: url(/imgs/websiteBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 72px;
+    width: 100%;
+    background-color: #223319;
+    display: flex;
+    align-items: center;
+    padding: 0 180px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color .1s;
+}
+
+nav a:hover {
+    color: #AADD8E;
+}
+
+nav a img {
+    width: 64px;
+}
+
+nav div {
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.liActive {
+    color: #AADD8E;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+#search::placeholder {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.searchInput {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    margin-left: 8px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 350px;
+}
+
+.entrarBtn {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    background-color: #AADD8E;
+    color: #223319;
+    padding: 0.4em 1.8em;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.entrarBtn:hover {
+    background-color: #d7ffc0;
+}

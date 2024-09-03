@@ -1,0 +1,23 @@
+.containerEditarCard {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    transform: translateY(-10%);
+}
+
+.containerEditarCard h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#containerTwo .inputBox {
+    margin: 18px 0;
+}
+
+#containerTwo h4 {
+    transform: translateY(12px);
+}
