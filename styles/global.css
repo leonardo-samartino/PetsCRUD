@@ -14,7 +14,7 @@ html {
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
-    background-image: url(/imgs/websiteBackground.jpg);
+    background-image: url(./imgs/websiteBackground.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: white;
